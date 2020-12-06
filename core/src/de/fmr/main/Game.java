@@ -50,3 +50,19 @@ public class Game {
 	
 	static boolean checkIfCollidesTreeFront(int x, int y, int ex, int ey) {
 		return x > ex && x < ex + 38 && y > ey && y < ey + 10;
+	}
+	
+	static boolean checkIfCollidesTreeBack(int x, int y, int ex, int ey) {
+		return x > ex && x < ex + 38;
+	}
+	
+	static Chunk[] actualizeChunk(Chunk[] chunks, Player p, SpriteBatch b) {
+		
+		Tout = null;
+		
+		//System.gc();
+		
+		Tout = new Chunk[chunks.length];
+		
+		//System.out.println("Started the method");
+		
