@@ -29,3 +29,24 @@ public class Game {
 		int lastY = y;
 		
 		int stepY = 500 / a;
+		
+		int newY;
+		
+		chunkOut = new Tree[a];
+		
+		for(int i = 0; i < a; i++) {
+			newY = lastY - stepY;
+			lastY = newY;
+			
+			chunkOut[i] = new Tree(r.nextInt(500) + x, newY);
+		}
+		
+		return chunkOut;
+	}
+	
+	public static void clrChunkCache() {
+		chunkOut = null;
+	}
+	
+	static boolean checkIfCollidesTreeFront(int x, int y, int ex, int ey) {
+		return x > ex && x < ex + 38 && y > ey && y < ey + 10;
