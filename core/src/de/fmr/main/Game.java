@@ -66,3 +66,18 @@ public class Game {
 		
 		//System.out.println("Started the method");
 		
+		//Chunk[] neverUSed = null;
+		
+		
+		//Chunk[] out = new Chunk[chunks.length];
+		
+		//Tout = new Chunk[16];
+		
+		
+		
+		int CX = 0;
+		int CY = 0;
+		
+		
+		
+		for(Chunk c : chunks) {
