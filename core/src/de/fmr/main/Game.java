@@ -81,3 +81,22 @@ public class Game {
 		
 		
 		for(Chunk c : chunks) {
+			
+			if(p.getX() + p.getSX() >= c.getX() && p.getX() + p.getSX() <= c.getX() + 600 && p.getY() + p.getSY() >= c.getY() && p.getY() + p.getSY() <= c.getY() + 600) {
+				CX = c.getX();
+				CY = c.getY();
+			}
+		}
+		
+		int counter = -1;
+		
+		Chunk chunk = null;
+		
+		
+		for(int x = (CX - 1200); x < CX + 1200; x += 600) {
+			for(int y = CY + 1200; y > (CY - 1200); y -= 600) {
+				
+				counter++;
+				
+				//System.out.println(counter);
+				
