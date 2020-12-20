@@ -100,3 +100,20 @@ public class Game {
 				
 				//System.out.println(counter);
 				
+				
+				
+				boolean isfound = false;
+				
+				
+				
+				
+				
+				for(Chunk c : chunks) {
+					
+					if(c.getX() == x && c.getY() == y) {
+						isfound = true;
+						chunk = c;
+						break;
+					}
+				}
+				
