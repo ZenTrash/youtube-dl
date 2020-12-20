@@ -117,3 +117,17 @@ public class Game {
 					}
 				}
 				
+				if(isfound == true && chunk != null) {
+					Tout[counter] = chunk;
+					//System.out.println("Added old chunk");
+				}
+				
+				if(isfound == false) {
+					Tout[counter] = new Chunk(x, y, b, createChunk(x, y));
+					//System.out.println("Created new chunk");
+				}
+			}
+		}
+		
+		for(Chunk cr: chunks) {
+			cr = null;
