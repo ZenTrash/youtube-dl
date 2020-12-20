@@ -131,3 +131,16 @@ public class Game {
 		
 		for(Chunk cr: chunks) {
 			cr = null;
+		}
+		
+		p = null;
+		b = null;
+		
+		
+		//System.out.println("returned null");
+		
+		
+		
+		return Tout;
+		
+		
