@@ -33,3 +33,22 @@ public class MyGdxGame extends ApplicationAdapter {
 		
 		
 		g = new Game();
+		
+		
+		//chunk = new Chunk(0, 600, batch, g.createSpawnChunk());
+		
+		
+		
+		chunks = new Chunk[RENDER_CHUNKS ];
+		System.out.println("HEllo World!");
+		int counter = -1;
+		for(int x = (int) -(Math.sqrt(RENDER_CHUNKS) / 2 * 600); x < Math.sqrt(RENDER_CHUNKS) / 2 * 600; x += 600) {
+			for(int y = (int) Math.sqrt(RENDER_CHUNKS) / 2 * 600; y > -Math.sqrt(RENDER_CHUNKS) / 2 * 600; y -= 600) {
+				System.out.print("DONE:");
+				System.out.println(counter);
+				counter++;
+				chunks[counter] = new Chunk(x, y, batch, Game.createChunk(x, y));
+			}
+		}
+		
+	}
