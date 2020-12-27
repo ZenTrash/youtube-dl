@@ -52,3 +52,28 @@ public class MyGdxGame extends ApplicationAdapter {
 		}
 		
 	}
+
+	@Override
+	public void render () {
+		update();
+		ScreenUtils.clear(1, 1, 1, 1);
+		
+		//draw background
+		sp.begin(ShapeRenderer.ShapeType.Filled);
+		sp.setColor(Color.GREEN);
+		sp.rect(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+		sp.end();
+		
+		
+		//Trees
+		
+		
+		
+		//Chunk
+		//chunk.render(Player);
+		
+		for(Chunk c : chunks) {
+			c.render(Player);
+		}
+		
+		
