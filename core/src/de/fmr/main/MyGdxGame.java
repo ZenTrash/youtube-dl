@@ -77,3 +77,22 @@ public class MyGdxGame extends ApplicationAdapter {
 		}
 		
 		
+		
+		//Player
+		Player.render(batch);
+		
+		//spieler hinter baum
+		//chunk.renderForeground(Player);
+		
+		for(Chunk c : chunks) {
+			c.renderForeground(Player);
+		}
+		
+		
+		
+	}
+	
+	@Override
+	public void dispose () {
+		sp.dispose();
+		batch.dispose();
