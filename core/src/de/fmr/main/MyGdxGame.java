@@ -96,3 +96,17 @@ public class MyGdxGame extends ApplicationAdapter {
 	public void dispose () {
 		sp.dispose();
 		batch.dispose();
+	}
+	
+	public void update() {
+		
+		
+		Player.actualize(chunks);
+		
+		Chunk[] nusa = chunks.clone();
+		
+		//chunks = null;
+		
+		
+		chunks = Game.actualizeChunk(chunks, Player, batch);
+		
