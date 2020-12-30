@@ -125,3 +125,24 @@ public class MyGdxGame extends ApplicationAdapter {
 		
 		*/
 		
+		//Game.createChunk(0, 600);
+		//System.gc();
+		
+		//Chunk[] b = Game.actualizeChunk(chunks, Player, batch);
+		
+		
+		
+		
+		
+		//System.out.println(chunks[0]);
+		//System.out.println(chunks.length);
+		
+		
+		/*
+		System.out.print(Player.getX());
+		System.out.print("Y:");
+		System.out.println(Player.getY());
+		*/
+		
+		
+		
