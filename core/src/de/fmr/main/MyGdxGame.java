@@ -110,3 +110,18 @@ public class MyGdxGame extends ApplicationAdapter {
 		
 		chunks = Game.actualizeChunk(chunks, Player, batch);
 		
+		nusa = null;
+		
+		//System.gc();
+		
+		/*
+		
+		Tree[] a;
+		a = Game.createChunk(0, 600);
+		
+		Game.clrChunkCache();
+		
+		a = null;
+		
+		*/
+		
