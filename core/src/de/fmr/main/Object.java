@@ -9,4 +9,5 @@ public class Object {
 	
 	
 	
-	public Object(int 
+	public Object(int x, int y) {
+		thi
