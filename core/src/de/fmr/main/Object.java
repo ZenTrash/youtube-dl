@@ -10,4 +10,5 @@ public class Object {
 	
 	
 	public Object(int x, int y) {
-		thi
+		this.x = x;
+	
