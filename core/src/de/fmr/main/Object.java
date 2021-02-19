@@ -14,3 +14,4 @@ public class Object {
 		this.y = y;
 	}
 	
+	public int 
