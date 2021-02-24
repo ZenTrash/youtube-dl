@@ -14,4 +14,5 @@ public class Object {
 		this.y = y;
 	}
 	
-	public int 
+	public int getX() {
+		return th
