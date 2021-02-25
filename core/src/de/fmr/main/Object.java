@@ -15,4 +15,7 @@ public class Object {
 	}
 	
 	public int getX() {
-		return th
+		return this.x;
+	}
+	
+	public int g
