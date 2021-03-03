@@ -21,3 +21,9 @@ public class Object {
 	public int getY() {
 		return this.y;
 	}
+	
+
+	
+	
+	
+	public voi
