@@ -18,4 +18,5 @@ public class Object {
 		return this.x;
 	}
 	
-	public int g
+	public int getY() {
+		retu
