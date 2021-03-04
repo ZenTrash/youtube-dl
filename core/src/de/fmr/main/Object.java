@@ -26,4 +26,4 @@ public class Object {
 	
 	
 	
-	public voi
+	public void setRenderXY(int
