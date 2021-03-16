@@ -26,4 +26,5 @@ public class Object {
 	
 	
 	
-	public void setRenderXY(int
+	public void setRenderXY(int x, int y) {
+		this.sx
