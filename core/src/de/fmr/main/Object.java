@@ -27,4 +27,5 @@ public class Object {
 	
 	
 	public void setRenderXY(int x, int y) {
-		this.sx
+		this.sx = x;
+		this.
