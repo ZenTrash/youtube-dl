@@ -7,4 +7,4 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class Player {
-	pri
+	private int x, y, sx, sy
