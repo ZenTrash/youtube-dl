@@ -8,4 +8,5 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class Player {
 	private int x, y, sx, sy;
-	private i
+	private int state;
+	private Texture[
