@@ -13,4 +13,4 @@ public class Player {
 	private int speed = 1;
 	
 	
-	publi
+	public Player(int x, 
