@@ -9,4 +9,4 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class Player {
 	private int x, y, sx, sy;
 	private int state;
-	private Texture[
+	private Texture[] img = new Text
