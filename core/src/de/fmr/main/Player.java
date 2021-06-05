@@ -13,4 +13,5 @@ public class Player {
 	private int speed = 1;
 	
 	
-	public Player(int x, 
+	public Player(int x, int y) {
+		this.sx
