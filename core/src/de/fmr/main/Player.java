@@ -14,4 +14,5 @@ public class Player {
 	
 	
 	public Player(int x, int y) {
-		this.sx
+		this.sx = x;
+		this.sy =
