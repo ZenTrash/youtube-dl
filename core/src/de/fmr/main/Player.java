@@ -15,4 +15,5 @@ public class Player {
 	
 	public Player(int x, int y) {
 		this.sx = x;
-		this.sy =
+		this.sy = y;
+		this.x = this.y =
