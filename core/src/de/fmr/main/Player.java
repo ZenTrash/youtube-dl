@@ -16,4 +16,5 @@ public class Player {
 	public Player(int x, int y) {
 		this.sx = x;
 		this.sy = y;
-		this.x = this.y =
+		this.x = this.y = 0;
+		this.state = 0
