@@ -17,4 +17,5 @@ public class Player {
 		this.sx = x;
 		this.sy = y;
 		this.x = this.y = 0;
-		this.state = 0
+		this.state = 0;
+		img[0]
