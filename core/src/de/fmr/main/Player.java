@@ -18,4 +18,4 @@ public class Player {
 		this.sy = y;
 		this.x = this.y = 0;
 		this.state = 0;
-		img[0]
+		img[0] = new Texture("Spie
