@@ -19,4 +19,5 @@ public class Player {
 		this.x = this.y = 0;
 		this.state = 0;
 		img[0] = new Texture("SpielerN.png");
-		img[1] = new Texture("Sp
+		img[1] = new Texture("SpielerO.png");
+		im
