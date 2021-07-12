@@ -21,4 +21,4 @@ public class Player {
 		img[0] = new Texture("SpielerN.png");
 		img[1] = new Texture("SpielerO.png");
 		img[2] = new Texture("SpielerS.png");
-		img[3] 
+		img[3] = new Texture("Spi
