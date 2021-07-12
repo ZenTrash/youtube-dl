@@ -24,4 +24,6 @@ public class Player {
 		img[3] = new Texture("SpielerW.png");
 		
 		
+	}
 	
+	public v
