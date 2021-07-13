@@ -26,4 +26,4 @@ public class Player {
 		
 	}
 	
-	public v
+	public void render(SpriteBa
