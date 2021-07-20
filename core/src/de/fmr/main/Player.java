@@ -28,4 +28,5 @@ public class Player {
 	
 	public void render(SpriteBatch b) {
 		
-		b.beg
+		b.begin();
+		b.dr
