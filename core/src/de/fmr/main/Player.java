@@ -26,4 +26,6 @@ public class Player {
 		
 	}
 	
-	public void render(SpriteBa
+	public void render(SpriteBatch b) {
+		
+		b.beg
