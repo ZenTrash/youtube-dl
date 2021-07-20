@@ -29,4 +29,4 @@ public class Player {
 	public void render(SpriteBatch b) {
 		
 		b.begin();
-		b.dr
+		b.draw(img[this.st
