@@ -29,4 +29,5 @@ public class Player {
 	public void render(SpriteBatch b) {
 		
 		b.begin();
-		b.draw(img[this.state], this.sx, thi
+		b.draw(img[this.state], this.sx, this.sy, 64, 64);
+		b.e
