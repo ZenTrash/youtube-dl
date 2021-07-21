@@ -30,4 +30,5 @@ public class Player {
 		
 		b.begin();
 		b.draw(img[this.state], this.sx, this.sy, 64, 64);
-		b.e
+		b.end();
+		
