@@ -35,4 +35,6 @@ public class Player {
 	}
 	
 	public int getX() {
+		return this.x;
+	}
 	
