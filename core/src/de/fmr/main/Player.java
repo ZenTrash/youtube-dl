@@ -32,3 +32,7 @@ public class Player {
 		b.draw(img[this.state], this.sx, this.sy, 64, 64);
 		b.end();
 		
+	}
+	
+	public int getX() {
+	
