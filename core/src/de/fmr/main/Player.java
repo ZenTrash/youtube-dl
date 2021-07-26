@@ -38,3 +38,4 @@ public class Player {
 		return this.x;
 	}
 	
+	public in
