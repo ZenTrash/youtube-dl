@@ -38,4 +38,5 @@ public class Player {
 		return this.x;
 	}
 	
-	public in
+	public int getY() {
+		return t
