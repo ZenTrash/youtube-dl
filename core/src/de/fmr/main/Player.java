@@ -39,4 +39,7 @@ public class Player {
 	}
 	
 	public int getY() {
-		return t
+		return this.y;
+	}
+	
+	public 
