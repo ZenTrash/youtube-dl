@@ -42,4 +42,4 @@ public class Player {
 		return this.y;
 	}
 	
-	public 
+	public int getState() {
