@@ -43,4 +43,7 @@ public class Player {
 	}
 	
 	public int getState() {
-		return this.sta
+		return this.state;
+	}
+	
+	publi
