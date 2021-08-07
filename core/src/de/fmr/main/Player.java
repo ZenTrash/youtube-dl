@@ -43,3 +43,4 @@ public class Player {
 	}
 	
 	public int getState() {
+		return this.sta
