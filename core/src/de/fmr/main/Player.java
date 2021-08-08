@@ -49,3 +49,5 @@ public class Player {
 	public int getSX() {
 		return this.sx;
 	}
+	
+	public int g
