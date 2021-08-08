@@ -47,4 +47,5 @@ public class Player {
 	}
 	
 	public int getSX() {
-		r
+		return this.sx;
+	}
