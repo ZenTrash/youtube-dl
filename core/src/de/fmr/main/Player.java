@@ -53,3 +53,5 @@ public class Player {
 	public int getSY() {
 		return this.sy;
 	}
+	
+	public void 
