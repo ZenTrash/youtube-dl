@@ -50,4 +50,5 @@ public class Player {
 		return this.sx;
 	}
 	
-	public int g
+	public int getSY() {
+		ret
