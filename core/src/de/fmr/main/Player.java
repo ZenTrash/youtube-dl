@@ -51,4 +51,5 @@ public class Player {
 	}
 	
 	public int getSY() {
-		ret
+		return this.sy;
+	}
