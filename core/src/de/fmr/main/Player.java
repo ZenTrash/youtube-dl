@@ -54,4 +54,6 @@ public class Player {
 		return this.sy;
 	}
 	
-	public void actualize(Chunk[]
+	public void actualize(Chunk[] chunks) {
+		
+		
