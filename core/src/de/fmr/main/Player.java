@@ -56,4 +56,4 @@ public class Player {
 	
 	public void actualize(Chunk[] chunks) {
 		
-		
+		boolean Wallow
