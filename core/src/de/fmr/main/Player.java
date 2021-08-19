@@ -58,4 +58,4 @@ public class Player {
 		
 		boolean Wallowed = true;
 		
-	
+		boolean Sallowed =
