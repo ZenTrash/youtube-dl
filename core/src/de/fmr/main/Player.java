@@ -60,4 +60,5 @@ public class Player {
 		
 		boolean Sallowed = true;
 		
-		for(Chunk c : 
+		for(Chunk c : chunks) {
+			if(c.co
