@@ -60,4 +60,4 @@ public class Player {
 		
 		boolean Sallowed = true;
 		
-		for(Ch
+		for(Chunk c : 
