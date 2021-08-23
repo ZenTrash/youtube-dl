@@ -61,4 +61,5 @@ public class Player {
 		boolean Sallowed = true;
 		
 		for(Chunk c : chunks) {
-			if(c.co
+			if(c.collidesW(this)) { 
+				W
