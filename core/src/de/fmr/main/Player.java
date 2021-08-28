@@ -62,4 +62,7 @@ public class Player {
 		
 		for(Chunk c : chunks) {
 			if(c.collidesW(this)) { 
-				Wallowed 
+				Wallowed = false;
+			
+			}
+		
