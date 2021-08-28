@@ -65,4 +65,5 @@ public class Player {
 				Wallowed = false;
 			
 			}
-		
+			
+			if(c.co
