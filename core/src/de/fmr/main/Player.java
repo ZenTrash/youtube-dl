@@ -67,4 +67,5 @@ public class Player {
 			}
 			
 			if(c.collidesS(this)) {
-				
+				Sallowed = false;
+		
