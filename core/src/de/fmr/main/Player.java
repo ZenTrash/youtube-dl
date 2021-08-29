@@ -70,4 +70,4 @@ public class Player {
 				Sallowed = false;
 			}
 			
-			if(Sallow
+			if(Sallowed == false &&
