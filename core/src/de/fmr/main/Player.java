@@ -66,4 +66,5 @@ public class Player {
 			
 			}
 			
-			if(c.co
+			if(c.collidesS(this)) {
+				
