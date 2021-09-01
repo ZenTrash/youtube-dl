@@ -76,4 +76,6 @@ public class Player {
 		}
 		
 		
-		//s
+		//speed
+		
+		if(G
