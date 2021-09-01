@@ -72,4 +72,8 @@ public class Player {
 			
 			if(Sallowed == false && Wallowed == false) break;
 			
-	
+			
+		}
+		
+		
+		//s
