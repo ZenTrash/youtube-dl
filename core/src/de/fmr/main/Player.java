@@ -70,4 +70,6 @@ public class Player {
 				Sallowed = false;
 			}
 			
-			if(Sallowed == false && Wallowed == f
+			if(Sallowed == false && Wallowed == false) break;
+			
+	
