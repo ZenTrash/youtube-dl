@@ -78,4 +78,4 @@ public class Player {
 		
 		//speed
 		
-		if(G
+		if(Gdx.input.isKeyPr
