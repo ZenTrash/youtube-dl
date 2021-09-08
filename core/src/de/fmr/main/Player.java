@@ -78,4 +78,4 @@ public class Player {
 		
 		//speed
 		
-		if(Gdx.input.isKeyPr
+		if(Gdx.input.isKeyPressed(Input.Keys.S
