@@ -83,4 +83,4 @@ public class Player {
 		
 		
 		//keys
-		if (G
+		if (Gdx.input.isKeyP
