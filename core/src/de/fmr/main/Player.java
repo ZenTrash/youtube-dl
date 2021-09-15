@@ -81,3 +81,6 @@ public class Player {
 		if(Gdx.input.isKeyPressed(Input.Keys.SHIFT_LEFT)) speed = 3;
 		else speed = 1;
 		
+		
+		//keys
+		if (G
