@@ -85,4 +85,4 @@ public class Player {
 		//keys
 		if (Gdx.input.isKeyPressed(Input.Keys.W) && Wallowed) {
 			this.y += speed;
-			i
+			if(this.state != 0
