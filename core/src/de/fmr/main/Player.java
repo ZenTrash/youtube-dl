@@ -87,4 +87,4 @@ public class Player {
 			this.y += speed;
 			if(this.state != 0) this.state = 0;
 		}
-		if(G
+		if(Gdx.input.isKeyPress
