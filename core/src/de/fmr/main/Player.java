@@ -93,4 +93,4 @@ public class Player {
 		}
 		if(Gdx.input.isKeyPressed(Input.Keys.S) && Sallowed) {
 			this.y -= speed;
-			if(th
+			if(this.state != 
