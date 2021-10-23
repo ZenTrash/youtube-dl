@@ -101,3 +101,9 @@ public class Player {
 		}
 		
 		if(Gdx.input.isKeyPressed(Input.Keys.S) && Gdx.input.isKeyPressed(Input.Keys.D) && this.state != 1) this.state = 1; 
+		
+		
+		
+	}
+
+}
