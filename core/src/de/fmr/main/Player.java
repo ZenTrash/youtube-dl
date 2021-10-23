@@ -100,4 +100,4 @@ public class Player {
 			if(this.state != 3) this.state = 3;
 		}
 		
-		if(Gdx.input.isKeyPressed(Input.Keys.S) && Gdx.input.isKeyPressed(Input.Keys.D) && this.state != 1
+		if(Gdx.input.isKeyPressed(Input.Keys.S) && Gdx.input.isKeyPressed(Input.Keys.D) && this.state != 1) this.state = 1; 
