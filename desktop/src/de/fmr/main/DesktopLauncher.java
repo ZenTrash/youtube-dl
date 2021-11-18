@@ -6,4 +6,4 @@ import de.fmr.main.MyGdxGame;
 
 // Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument
 public class DesktopLauncher {
-	public static v
+	public static void main (S
