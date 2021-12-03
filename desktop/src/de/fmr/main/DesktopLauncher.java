@@ -8,4 +8,5 @@ import de.fmr.main.MyGdxGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
-		config.setForegrou
+		config.setForegroundFPS(60);
+		con
