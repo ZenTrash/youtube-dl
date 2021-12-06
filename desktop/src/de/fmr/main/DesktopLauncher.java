@@ -10,4 +10,5 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("World2Explore 2");
-		config.setWindowedMo
+		config.setWindowedMode(800, 800);
+		c
