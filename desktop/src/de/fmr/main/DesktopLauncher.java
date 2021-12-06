@@ -11,4 +11,5 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.setTitle("World2Explore 2");
 		config.setWindowedMode(800, 800);
-		config.setResizab
+		config.setResizable(false);
+	
