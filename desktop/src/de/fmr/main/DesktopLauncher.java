@@ -12,4 +12,6 @@ public class DesktopLauncher {
 		config.setTitle("World2Explore 2");
 		config.setWindowedMode(800, 800);
 		config.setResizable(false);
-		new Lwjgl3Application(new MyGdxGame()
+		new Lwjgl3Application(new MyGdxGame(), config);
+	}
+}
