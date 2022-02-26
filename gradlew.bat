@@ -5,4 +5,4 @@
 @rem you may not use this file except in compliance with the License.
 @rem You may obtain a copy of the License at
 @rem
-@rem      https:/
+@rem      https://www.apache.org/l
