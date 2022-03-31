@@ -17,4 +17,4 @@
 @if "%DEBUG%"=="" @echo off
 @rem ##########################################################################
 @rem
-@rem  Gradle startup s
+@rem  Gradle startup script for Windo
