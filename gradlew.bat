@@ -21,4 +21,4 @@
 @rem
 @rem ##########################################################################
 
-@rem Set local s
+@rem Set local scope for the varia
