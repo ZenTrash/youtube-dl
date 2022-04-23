@@ -25,4 +25,4 @@
 if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
-i
+if "%DIRNA
