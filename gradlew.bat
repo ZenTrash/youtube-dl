@@ -40,4 +40,7 @@ if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe
 %JAVA_EXE% -version >NUL 2>&1
-if %ERRORLEVEL% equ 0 goto execu
+if %ERRORLEVEL% equ 0 goto execute
+
+echo.
+echo ERROR:
