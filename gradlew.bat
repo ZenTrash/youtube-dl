@@ -50,4 +50,4 @@ echo location of your Java installation.
 
 goto fail
 
-:find
+:findJavaFromJav
