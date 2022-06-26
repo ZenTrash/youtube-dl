@@ -59,4 +59,4 @@ if exist "%JAVA_EXE%" goto execute
 echo.
 echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
 echo.
-echo Please set the JAVA_HOME variable i
+echo Please set the JAVA_HOME variable in your envir
