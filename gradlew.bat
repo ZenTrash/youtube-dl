@@ -64,4 +64,5 @@ echo location of your Java installation.
 
 goto fail
 
-:exec
+:execute
+@rem Setup the c
