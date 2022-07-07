@@ -67,4 +67,4 @@ goto fail
 :execute
 @rem Setup the command line
 
-set C
+set CLASSPATH=%APP_HOME%\gr
