@@ -71,4 +71,4 @@ set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
 
 @rem Execute Gradle
-"%JAVA_E
+"%JAVA_EXE%" %DEFAULT_JVM_OP
