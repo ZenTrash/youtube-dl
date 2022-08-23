@@ -49,3 +49,18 @@ task beforeRun(type: AppBeforeIntegrationTestTask, dependsOn: startHttpServer) {
     integrationTestTask 'superDev'
 
     interactive false
+}
+
+task superDev (type: GwtSuperDev) {
+    dependsOn startHttpServer
+    doFirst {
+        gwt.modules = gwt.devModules
+    }
+}
+
+task dist(dependsOn: [clean, compileGwt]) {
+    doLast {
+        file("build/dist").mkdirs()
+        copy {
+            from "build/gwt/out"
+            into "build/dist"
