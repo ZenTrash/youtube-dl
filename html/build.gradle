@@ -64,3 +64,17 @@ task dist(dependsOn: [clean, compileGwt]) {
         copy {
             from "build/gwt/out"
             into "build/dist"
+        }
+        copy {
+            from "webapp"
+            into "build/dist"
+            }
+        copy {
+            from "war"
+            into "build/dist"
+        }
+    }
+}
+
+task addSource {
+    doLast {
