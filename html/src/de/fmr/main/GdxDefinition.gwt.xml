@@ -5,4 +5,6 @@
 	<inherits name='com.badlogic.gdx.controllers' />
 	<inherits name='com.badlogic.gdx.controllers.controllers-gwt' />
 	<inherits name='com.badlogic.gdx.physics.box2d.box2d-gwt' />
-	<inherits name='Box2DLight
+	<inherits name='Box2DLights' />
+
+	<inher
