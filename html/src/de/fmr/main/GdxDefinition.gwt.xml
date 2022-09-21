@@ -8,4 +8,4 @@
 	<inherits name='Box2DLights' />
 
 	<inherits name='MyGdxGame' />
-	
+	<entry-poi
