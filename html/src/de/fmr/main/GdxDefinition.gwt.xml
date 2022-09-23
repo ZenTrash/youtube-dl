@@ -8,4 +8,5 @@
 	<inherits name='Box2DLights' />
 
 	<inherits name='MyGdxGame' />
-	<entry-point class='de.fmr.main.client.
+	<entry-point class='de.fmr.main.client.HtmlLauncher' />
+	<
