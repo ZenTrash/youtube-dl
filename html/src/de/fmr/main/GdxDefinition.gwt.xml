@@ -9,4 +9,4 @@
 
 	<inherits name='MyGdxGame' />
 	<entry-point class='de.fmr.main.client.HtmlLauncher' />
-	<set-configura
+	<set-configuration-property 
