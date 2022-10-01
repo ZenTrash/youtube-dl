@@ -9,4 +9,4 @@
 
 	<inherits name='MyGdxGame' />
 	<entry-point class='de.fmr.main.client.HtmlLauncher' />
-	<set-configuration-property name='xsiframe.failIfScr
+	<set-configuration-property name='xsiframe.failIfScriptTag' value
