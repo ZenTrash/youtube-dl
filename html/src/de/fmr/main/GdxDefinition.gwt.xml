@@ -10,4 +10,4 @@
 	<inherits name='MyGdxGame' />
 	<entry-point class='de.fmr.main.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
-	<set-configuration-property name="gdx.assetp
+	<set-configuration-property name="gdx.assetpath" value="../asset
