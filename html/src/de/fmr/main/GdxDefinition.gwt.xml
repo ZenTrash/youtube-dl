@@ -11,4 +11,4 @@
 	<entry-point class='de.fmr.main.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 	<set-configuration-property name="gdx.assetpath" value="../assets" />
-	<set-property name="user.agent" value=
+	<set-property name="user.agent" value="gecko1_8, safari"/>
