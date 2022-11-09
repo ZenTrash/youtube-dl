@@ -5,4 +5,4 @@ import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
 import de.fmr.main.MyGdxGame;
 
-public class HtmlLauncher extend
+public class HtmlLauncher extends GwtApplication 
