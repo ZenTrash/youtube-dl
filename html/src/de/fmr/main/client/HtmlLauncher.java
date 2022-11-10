@@ -7,4 +7,4 @@ import de.fmr.main.MyGdxGame;
 
 public class HtmlLauncher extends GwtApplication {
 
-        @O
+        @Override
