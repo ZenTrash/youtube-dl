@@ -13,3 +13,6 @@ public class HtmlLauncher extends GwtApplication {
                 return new GwtApplicationConfiguration(800, 800);
                 // Fixed size application:
                 //return new GwtApplicationConfiguration(480, 320);
+        }
+
+   
