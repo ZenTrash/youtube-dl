@@ -16,4 +16,4 @@ public class HtmlLauncher extends GwtApplication {
         }
 
         @Override
-        public ApplicationListener createAppli
+        public ApplicationListener createApplicationListener () {
