@@ -25,4 +25,5 @@
                 evt.stopPropagation();
               }
               document.addEventListener('contextmenu', event => event.preventDefault());
-              document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown
+              document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
+              
